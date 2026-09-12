@@ -25,7 +25,7 @@ VoteChain là một ứng dụng bầu cử phi tập trung tích hợp Blockcha
 
 Tài liệu chi tiết cấu trúc thư mục và vai trò của các file trong dự án.
 
-## 📁 Thư mục gốc
+##  Thư mục gốc
 - `package.json`: Cấu hình workspace và các lệnh chạy chung.
 - `hardhat.config.js`: Cấu hình mạng Blockchain (Hardhat, Ganache, Sepolia).
 - `run_project.bat`: Script khởi động nhanh toàn bộ hệ thống.
@@ -33,7 +33,7 @@ Tài liệu chi tiết cấu trúc thư mục và vai trò của các file trong
 - `scripts/deploy.js`: Script triển khai contract và đồng bộ ABI sang frontend/backend.
 - `test/Voting.test.js`: Unit tests cho Smart Contract.
 
-## 📁 backend/
+##  backend/
 - `src/server.js`: Entry point, khởi động server.
 - `src/app.js`: Cấu hình Express và các routes.
 - `src/config/db.js`: Kết nối SQLite.
@@ -42,7 +42,7 @@ Tài liệu chi tiết cấu trúc thư mục và vai trò của các file trong
 - `src/middlewares/`: Phân quyền, xác thực JWT và xử lý lỗi.
 - `src/routes/`: Định nghĩa các API endpoints.
 
-## 📁 frontend/
+##  frontend/
 - `src/main.jsx`: Entry point của ứng dụng React.
 - `src/App.jsx`: Cấu hình Router và các Providers (Auth, Web3).
 - `src/index.css`: Design system với giao diện Dark Mode cao cấp.
